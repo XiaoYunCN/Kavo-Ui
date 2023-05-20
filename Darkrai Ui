@@ -10,7 +10,7 @@ local PlaceName = game:GetService("MarketplaceService"):GetProductInfo(game.Plac
     wait(1)
 
 do local GUI = game.CoreGui:FindFirstChild("Darkrai");if GUI then GUI:Destroy();end;if _G.Color == nil then
-       _G.Color = Color3.fromRGB(147,112,219)
+       _G.Color = Color3.fromRGB(255,0,0)
    end 
 end
 
@@ -139,7 +139,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	Name.Size = UDim2.new(0, 61, 0, 27)
 	Name.Font = Enum.Font.GothamSemibold
 	Name.Text = hubname
-	Name.TextColor3 = Color3.fromRGB(255,10,10)
+	Name.TextColor3 = Color3.fromRGB(255,0,0)
 	Name.TextSize = 17.000
 
 	local Hub = Instance.new("TextLabel")
@@ -151,7 +151,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	Hub.Size = UDim2.new(0, 81, 0, 27)
 	Hub.Font = Enum.Font.GothamSemibold
 	Hub.Text = "  | "..gamename
-	Hub.TextColor3 = Color3.fromRGB(255,10,10)
+	Hub.TextColor3 = Color3.fromRGB(255,0,0)
 	Hub.TextSize = 17.000
 	Hub.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -460,7 +460,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 
 			Circle.Name = "Circle"
 			Circle.Parent = ToggleImage
-			Circle.BackgroundColor3 = Color3.fromRGB(227, 60, 60)
+			Circle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Circle.Position = UDim2.new(0, 2, 0, 2)
 			Circle.Size = UDim2.new(0, 16, 0, 16)
 
@@ -482,7 +482,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 					TweenService:Create(
 						Circle,
 						TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-						{BackgroundColor3 = Color3.fromRGB(227, 60, 110)}
+						{BackgroundColor3 = Color3.fromRGB(255, 0, 0)}
 					):Play()
 				end
 				pcall(callback,toggled)
