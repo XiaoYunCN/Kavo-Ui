@@ -1789,7 +1789,7 @@ function shuaxinlb(zji)
 end
 shuaxinlb(true)
 
-local Cloudlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Kavo-Ui/main/Cloud%20Ui%20lib.lua", true))()
+local Cloudlib = loadstring(game:HttpGet("https://gist.githubusercontent.com/XiaoYunCN/c212174d6263d5a43e95a59110a2724b/raw/c89c61fa5c8149a2554b66f618a32cd3e4d42877/gistfile1.txt", true))()
 local window = Cloudlib:new("白--伐木大亨2", '')
 local Tab1 = window:Tab("玩家功能", "10882439086")
 local Section3 = Tab1:section("玩家", false)
